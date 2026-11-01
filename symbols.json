@@ -1,0 +1,1508 @@
+{
+  "∅": {
+    "name": "empty_set",
+    "latex": "\\emptyset",
+    "aliases": [
+      "empty set",
+      "null set",
+      "empty set symbol"
+    ],
+    "tts": {
+      "casual": "empty set",
+      "normal": "the empty set",
+      "pedagogical": "the empty set, meaning a set with no elements"
+    },
+    "domain": "set_theory"
+  },
+  "∈": {
+    "name": "membership",
+    "latex": "\\in",
+    "aliases": [
+      "is in",
+      "belongs to",
+      "is an element of",
+      "is a member of",
+      "member of",
+      "in"
+    ],
+    "tts": {
+      "casual": "in",
+      "normal": "is an element of",
+      "pedagogical": "is an element of"
+    },
+    "domain": "set_theory"
+  },
+  "∉": {
+    "name": "not_membership",
+    "latex": "\\notin",
+    "aliases": [
+      "is not in",
+      "does not belong to",
+      "is not an element of",
+      "is not a member of",
+      "not in"
+    ],
+    "tts": {
+      "casual": "not in",
+      "normal": "is not an element of",
+      "pedagogical": "is not an element of"
+    },
+    "domain": "set_theory"
+  },
+  "⊆": {
+    "name": "subset_or_equal",
+    "latex": "\\subseteq",
+    "aliases": [
+      "is a subset of or equal to",
+      "subset of or equal to",
+      "subset of",
+      "is contained in",
+      "is a subset of"
+    ],
+    "tts": {
+      "casual": "subset of",
+      "normal": "is a subset of",
+      "pedagogical": "is a subset of, meaning every element of the left set is also in the right set"
+    },
+    "domain": "set_theory"
+  },
+  "⊊": {
+    "name": "proper_subset",
+    "latex": "\\subsetneq",
+    "aliases": [
+      "is a proper subset of",
+      "proper subset of",
+      "strictly contained in"
+    ],
+    "tts": {
+      "casual": "proper subset of",
+      "normal": "is a proper subset of",
+      "pedagogical": "is a proper subset of, meaning it is a subset but not equal to"
+    },
+    "domain": "set_theory"
+  },
+  "⊂": {
+    "name": "subset",
+    "latex": "\\subset",
+    "aliases": [
+      "is a subset of"
+    ],
+    "tts": {
+      "casual": "subset of",
+      "normal": "is a subset of",
+      "pedagogical": "is a subset of"
+    },
+    "domain": "set_theory",
+    "ambiguity": "subset_or_proper_subset"
+  },
+  "⊃": {
+    "name": "superset",
+    "latex": "\\supset",
+    "aliases": [
+      "is a superset of",
+      "superset of",
+      "contains"
+    ],
+    "tts": {
+      "casual": "superset of",
+      "normal": "is a superset of",
+      "pedagogical": "is a superset of"
+    },
+    "domain": "set_theory"
+  },
+  "⊇": {
+    "name": "superset_or_equal",
+    "latex": "\\supseteq",
+    "aliases": [
+      "contains as a subset",
+      "superset of or equal to",
+      "is a superset of"
+    ],
+    "tts": {
+      "casual": "superset of",
+      "normal": "is a superset of",
+      "pedagogical": "is a superset of or equal to"
+    },
+    "domain": "set_theory"
+  },
+  "⊋": {
+    "name": "proper_superset",
+    "latex": "\\supsetneq",
+    "aliases": [
+      "is a proper superset of",
+      "proper superset of"
+    ],
+    "tts": {
+      "casual": "proper superset of",
+      "normal": "is a proper superset of",
+      "pedagogical": "is a proper superset of"
+    },
+    "domain": "set_theory"
+  },
+  "∪": {
+    "name": "union",
+    "latex": "\\cup",
+    "aliases": [
+      "union",
+      "union of"
+    ],
+    "tts": {
+      "casual": "union",
+      "normal": "union",
+      "pedagogical": "union, meaning all elements in either set"
+    },
+    "domain": "set_theory"
+  },
+  "∩": {
+    "name": "intersection",
+    "latex": "\\cap",
+    "aliases": [
+      "intersection",
+      "intersection of",
+      "intersect"
+    ],
+    "tts": {
+      "casual": "intersection",
+      "normal": "intersection",
+      "pedagogical": "intersection, meaning only elements in both sets"
+    },
+    "domain": "set_theory"
+  },
+  "∖": {
+    "name": "set_difference",
+    "latex": "\\setminus",
+    "aliases": [
+      "set difference",
+      "difference of sets",
+      "minus",
+      "without"
+    ],
+    "tts": {
+      "casual": "minus",
+      "normal": "set difference",
+      "pedagogical": "set difference, meaning elements in the left set but not the right"
+    },
+    "domain": "set_theory"
+  },
+  "⊖": {
+    "name": "symmetric_difference",
+    "latex": "\\ominus",
+    "aliases": [
+      "symmetric difference"
+    ],
+    "tts": {
+      "casual": "symmetric difference",
+      "normal": "symmetric difference",
+      "pedagogical": "symmetric difference, meaning elements in either set but not both"
+    },
+    "domain": "set_theory"
+  },
+  "△": {
+    "name": "symmetric_difference_alt",
+    "latex": "\\triangle",
+    "aliases": [
+      "symmetric difference"
+    ],
+    "tts": {
+      "casual": "symmetric difference",
+      "normal": "symmetric difference",
+      "pedagogical": "symmetric difference"
+    },
+    "domain": "set_theory"
+  },
+  "⊔": {
+    "name": "disjoint_union",
+    "latex": "\\sqcup",
+    "aliases": [
+      "disjoint union"
+    ],
+    "tts": {
+      "casual": "disjoint union",
+      "normal": "disjoint union",
+      "pedagogical": "disjoint union, meaning the union of sets that share no elements"
+    },
+    "domain": "set_theory"
+  },
+  "×": {
+    "name": "context_dependent",
+    "latex": "\\times",
+    "aliases": [],
+    "contexts": {
+      "arithmetic": {
+        "aliases": [
+          "times",
+          "multiplied by"
+        ],
+        "tts": {
+          "casual": "times",
+          "normal": "times",
+          "pedagogical": "times"
+        }
+      },
+      "set_theory": {
+        "aliases": [
+          "Cartesian product",
+          "cross product of sets",
+          "product of sets"
+        ],
+        "tts": {
+          "casual": "cross",
+          "normal": "Cartesian product",
+          "pedagogical": "Cartesian product, meaning all ordered pairs from both sets"
+        }
+      },
+      "linear_algebra": {
+        "aliases": [
+          "cross product",
+          "cross"
+        ],
+        "tts": {
+          "casual": "cross",
+          "normal": "cross product",
+          "pedagogical": "cross product of"
+        }
+      }
+    }
+  },
+  "+": {
+    "name": "addition",
+    "latex": "+",
+    "aliases": [
+      "plus",
+      "added to",
+      "and"
+    ],
+    "tts": {
+      "casual": "plus",
+      "normal": "plus",
+      "pedagogical": "plus"
+    },
+    "domain": "arithmetic"
+  },
+  "−": {
+    "name": "subtraction",
+    "latex": "-",
+    "aliases": [
+      "minus",
+      "subtract",
+      "take away"
+    ],
+    "tts": {
+      "casual": "minus",
+      "normal": "minus",
+      "pedagogical": "minus"
+    },
+    "domain": "arithmetic"
+  },
+  "÷": {
+    "name": "division",
+    "latex": "\\div",
+    "aliases": [
+      "divided by",
+      "over"
+    ],
+    "tts": {
+      "casual": "divided by",
+      "normal": "divided by",
+      "pedagogical": "divided by"
+    },
+    "domain": "arithmetic"
+  },
+  "=": {
+    "name": "equals",
+    "latex": "=",
+    "aliases": [
+      "equals",
+      "is equal to"
+    ],
+    "tts": {
+      "casual": "equals",
+      "normal": "equals",
+      "pedagogical": "equals"
+    },
+    "domain": "arithmetic"
+  },
+  "≠": {
+    "name": "not_equals",
+    "latex": "\\neq",
+    "aliases": [
+      "not equal to",
+      "is not equal to",
+      "does not equal"
+    ],
+    "tts": {
+      "casual": "not equal to",
+      "normal": "is not equal to",
+      "pedagogical": "is not equal to"
+    },
+    "domain": "arithmetic"
+  },
+  "≈": {
+    "name": "approximately_equals",
+    "latex": "\\approx",
+    "aliases": [
+      "approximately equals",
+      "approximately equal to",
+      "roughly equals",
+      "about"
+    ],
+    "tts": {
+      "casual": "approximately",
+      "normal": "approximately equals",
+      "pedagogical": "is approximately equal to"
+    },
+    "domain": "arithmetic"
+  },
+  "<": {
+    "name": "less_than",
+    "latex": "<",
+    "aliases": [
+      "less than",
+      "is less than",
+      "smaller than"
+    ],
+    "tts": {
+      "casual": "less than",
+      "normal": "is less than",
+      "pedagogical": "is less than"
+    },
+    "domain": "arithmetic"
+  },
+  ">": {
+    "name": "greater_than",
+    "latex": ">",
+    "aliases": [
+      "greater than",
+      "is greater than",
+      "larger than",
+      "bigger than"
+    ],
+    "tts": {
+      "casual": "greater than",
+      "normal": "is greater than",
+      "pedagogical": "is greater than"
+    },
+    "domain": "arithmetic"
+  },
+  "≤": {
+    "name": "less_than_or_equal",
+    "latex": "\\leq",
+    "aliases": [
+      "less than or equal to",
+      "at most",
+      "no more than"
+    ],
+    "tts": {
+      "casual": "less than or equal to",
+      "normal": "is less than or equal to",
+      "pedagogical": "is less than or equal to"
+    },
+    "domain": "arithmetic"
+  },
+  "≥": {
+    "name": "greater_than_or_equal",
+    "latex": "\\geq",
+    "aliases": [
+      "greater than or equal to",
+      "at least",
+      "no less than"
+    ],
+    "tts": {
+      "casual": "greater than or equal to",
+      "normal": "is greater than or equal to",
+      "pedagogical": "is greater than or equal to"
+    },
+    "domain": "arithmetic"
+  },
+  "√": {
+    "name": "square_root",
+    "latex": "\\sqrt",
+    "aliases": [
+      "square root of",
+      "the square root of",
+      "root of"
+    ],
+    "tts": {
+      "casual": "root of",
+      "normal": "square root of",
+      "pedagogical": "the square root of"
+    },
+    "domain": "arithmetic"
+  },
+  "∛": {
+    "name": "cube_root",
+    "latex": "\\sqrt[3]",
+    "aliases": [
+      "cube root of",
+      "the cube root of"
+    ],
+    "tts": {
+      "casual": "cube root of",
+      "normal": "cube root of",
+      "pedagogical": "the cube root of"
+    },
+    "domain": "arithmetic"
+  },
+  "∞": {
+    "name": "infinity",
+    "latex": "\\infty",
+    "aliases": [
+      "infinity",
+      "infinite"
+    ],
+    "tts": {
+      "casual": "infinity",
+      "normal": "infinity",
+      "pedagogical": "infinity"
+    },
+    "domain": "general"
+  },
+  "∑": {
+    "name": "summation",
+    "latex": "\\sum",
+    "aliases": [
+      "sum",
+      "summation",
+      "the sum",
+      "the summation",
+      "sigma sum"
+    ],
+    "tts": {
+      "casual": "sum",
+      "normal": "summation",
+      "pedagogical": "the sum"
+    },
+    "domain": "calculus"
+  },
+  "∏": {
+    "name": "product",
+    "latex": "\\prod",
+    "aliases": [
+      "product",
+      "the product"
+    ],
+    "tts": {
+      "casual": "product",
+      "normal": "product",
+      "pedagogical": "the product"
+    },
+    "domain": "calculus"
+  },
+  "∫": {
+    "name": "integral",
+    "latex": "\\int",
+    "aliases": [
+      "integral",
+      "the integral"
+    ],
+    "tts": {
+      "casual": "integral",
+      "normal": "the integral",
+      "pedagogical": "the integral"
+    },
+    "domain": "calculus"
+  },
+  "∂": {
+    "name": "partial_derivative",
+    "latex": "\\partial",
+    "aliases": [
+      "partial",
+      "partial derivative of",
+      "partial of"
+    ],
+    "tts": {
+      "casual": "partial",
+      "normal": "partial derivative of",
+      "pedagogical": "the partial derivative of"
+    },
+    "domain": "calculus"
+  },
+  "∇": {
+    "name": "nabla",
+    "latex": "\\nabla",
+    "aliases": [
+      "nabla",
+      "del",
+      "gradient of"
+    ],
+    "tts": {
+      "casual": "del",
+      "normal": "nabla",
+      "pedagogical": "nabla, also called del"
+    },
+    "domain": "calculus"
+  },
+  "π": {
+    "name": "pi",
+    "latex": "\\pi",
+    "aliases": [
+      "pi",
+      "pie"
+    ],
+    "tts": {
+      "casual": "pi",
+      "normal": "pi",
+      "pedagogical": "pi, approximately 3.14159"
+    },
+    "domain": "general"
+  },
+  "α": {
+    "name": "alpha",
+    "latex": "\\alpha",
+    "aliases": [
+      "alpha",
+      "al-fuh"
+    ],
+    "tts": {
+      "casual": "alpha",
+      "normal": "alpha",
+      "pedagogical": "alpha"
+    },
+    "domain": "general"
+  },
+  "β": {
+    "name": "beta",
+    "latex": "\\beta",
+    "aliases": [
+      "beta",
+      "bay-tuh"
+    ],
+    "tts": {
+      "casual": "beta",
+      "normal": "beta",
+      "pedagogical": "beta"
+    },
+    "domain": "general"
+  },
+  "γ": {
+    "name": "gamma",
+    "latex": "\\gamma",
+    "aliases": [
+      "gamma",
+      "gam-uh"
+    ],
+    "tts": {
+      "casual": "gamma",
+      "normal": "gamma",
+      "pedagogical": "gamma"
+    },
+    "domain": "general"
+  },
+  "δ": {
+    "name": "delta",
+    "latex": "\\delta",
+    "aliases": [
+      "delta",
+      "del-tuh"
+    ],
+    "tts": {
+      "casual": "delta",
+      "normal": "delta",
+      "pedagogical": "delta"
+    },
+    "domain": "general"
+  },
+  "θ": {
+    "name": "theta",
+    "latex": "\\theta",
+    "aliases": [
+      "theta",
+      "thay-tuh"
+    ],
+    "tts": {
+      "casual": "theta",
+      "normal": "theta",
+      "pedagogical": "theta"
+    },
+    "domain": "general"
+  },
+  "λ": {
+    "name": "lambda",
+    "latex": "\\lambda",
+    "aliases": [
+      "lambda",
+      "lam-duh"
+    ],
+    "tts": {
+      "casual": "lambda",
+      "normal": "lambda",
+      "pedagogical": "lambda"
+    },
+    "domain": "general"
+  },
+  "μ": {
+    "name": "mu",
+    "latex": "\\mu",
+    "aliases": [
+      "mu",
+      "mew"
+    ],
+    "tts": {
+      "casual": "mu",
+      "normal": "mu",
+      "pedagogical": "mu"
+    },
+    "domain": "general"
+  },
+  "σ": {
+    "name": "sigma",
+    "latex": "\\sigma",
+    "aliases": [
+      "sigma",
+      "sig-muh"
+    ],
+    "tts": {
+      "casual": "sigma",
+      "normal": "sigma",
+      "pedagogical": "sigma"
+    },
+    "domain": "general"
+  },
+  "φ": {
+    "name": "phi",
+    "latex": "\\phi",
+    "aliases": [
+      "phi",
+      "fie",
+      "fee"
+    ],
+    "tts": {
+      "casual": "phi",
+      "normal": "phi",
+      "pedagogical": "phi"
+    },
+    "domain": "general"
+  },
+  "ω": {
+    "name": "omega",
+    "latex": "\\omega",
+    "aliases": [
+      "omega",
+      "oh-may-guh"
+    ],
+    "tts": {
+      "casual": "omega",
+      "normal": "omega",
+      "pedagogical": "omega"
+    },
+    "domain": "general"
+  },
+  "∧": {
+    "name": "logical_and",
+    "latex": "\\land",
+    "aliases": [
+      "and",
+      "logical and",
+      "conjunction"
+    ],
+    "tts": {
+      "casual": "and",
+      "normal": "and",
+      "pedagogical": "logical and"
+    },
+    "domain": "logic"
+  },
+  "∨": {
+    "name": "logical_or",
+    "latex": "\\lor",
+    "aliases": [
+      "or",
+      "logical or",
+      "disjunction"
+    ],
+    "tts": {
+      "casual": "or",
+      "normal": "or",
+      "pedagogical": "logical or"
+    },
+    "domain": "logic"
+  },
+  "¬": {
+    "name": "logical_not",
+    "latex": "\\neg",
+    "aliases": [
+      "not",
+      "logical not",
+      "negation",
+      "it is not the case that"
+    ],
+    "tts": {
+      "casual": "not",
+      "normal": "not",
+      "pedagogical": "it is not the case that"
+    },
+    "domain": "logic"
+  },
+  "→": {
+    "name": "implication",
+    "latex": "\\rightarrow",
+    "aliases": [
+      "implies",
+      "if then",
+      "if ... then",
+      "maps to",
+      "approaches"
+    ],
+    "tts": {
+      "casual": "implies",
+      "normal": "implies",
+      "pedagogical": "if the left is true, then the right is true"
+    },
+    "domain": "logic"
+  },
+  "↔": {
+    "name": "biconditional",
+    "latex": "\\leftrightarrow",
+    "aliases": [
+      "if and only if",
+      "iff",
+      "is equivalent to",
+      "biconditional"
+    ],
+    "tts": {
+      "casual": "iff",
+      "normal": "if and only if",
+      "pedagogical": "if and only if"
+    },
+    "domain": "logic"
+  },
+  "⇒": {
+    "name": "implies",
+    "latex": "\\Rightarrow",
+    "aliases": [
+      "implies",
+      "therefore",
+      "it follows that"
+    ],
+    "tts": {
+      "casual": "implies",
+      "normal": "implies",
+      "pedagogical": "implies that"
+    },
+    "domain": "logic"
+  },
+  "⇔": {
+    "name": "iff",
+    "latex": "\\Leftrightarrow",
+    "aliases": [
+      "if and only if",
+      "iff",
+      "is logically equivalent to"
+    ],
+    "tts": {
+      "casual": "iff",
+      "normal": "if and only if",
+      "pedagogical": "if and only if"
+    },
+    "domain": "logic"
+  },
+  "∀": {
+    "name": "for_all",
+    "latex": "\\forall",
+    "aliases": [
+      "for all",
+      "for every",
+      "for each",
+      "universal quantifier"
+    ],
+    "tts": {
+      "casual": "for all",
+      "normal": "for all",
+      "pedagogical": "for every"
+    },
+    "domain": "logic"
+  },
+  "∃": {
+    "name": "there_exists",
+    "latex": "\\exists",
+    "aliases": [
+      "there exists",
+      "there is",
+      "for some",
+      "existential quantifier"
+    ],
+    "tts": {
+      "casual": "there exists",
+      "normal": "there exists",
+      "pedagogical": "there exists at least one"
+    },
+    "domain": "logic"
+  },
+  "∄": {
+    "name": "there_does_not_exist",
+    "latex": "\\nexists",
+    "aliases": [
+      "there does not exist",
+      "there is no"
+    ],
+    "tts": {
+      "casual": "there is no",
+      "normal": "there does not exist",
+      "pedagogical": "there does not exist any"
+    },
+    "domain": "logic"
+  },
+  "∴": {
+    "name": "therefore",
+    "latex": "\\therefore",
+    "aliases": [
+      "therefore",
+      "thus",
+      "so"
+    ],
+    "tts": {
+      "casual": "so",
+      "normal": "therefore",
+      "pedagogical": "therefore"
+    },
+    "domain": "logic"
+  },
+  "∵": {
+    "name": "because",
+    "latex": "\\because",
+    "aliases": [
+      "because",
+      "since"
+    ],
+    "tts": {
+      "casual": "because",
+      "normal": "because",
+      "pedagogical": "because"
+    },
+    "domain": "logic"
+  },
+  "∠": {
+    "name": "angle",
+    "latex": "\\angle",
+    "aliases": [
+      "angle",
+      "the angle"
+    ],
+    "tts": {
+      "casual": "angle",
+      "normal": "angle",
+      "pedagogical": "the angle"
+    },
+    "domain": "geometry"
+  },
+  "∥": {
+    "name": "parallel",
+    "latex": "\\parallel",
+    "aliases": [
+      "parallel to",
+      "is parallel to",
+      "parallel"
+    ],
+    "tts": {
+      "casual": "parallel to",
+      "normal": "is parallel to",
+      "pedagogical": "is parallel to"
+    },
+    "domain": "geometry"
+  },
+  "⊥": {
+    "name": "perpendicular",
+    "latex": "\\perp",
+    "aliases": [
+      "perpendicular to",
+      "is perpendicular to",
+      "perpendicular"
+    ],
+    "tts": {
+      "casual": "perpendicular to",
+      "normal": "is perpendicular to",
+      "pedagogical": "is perpendicular to"
+    },
+    "domain": "geometry"
+  },
+  "°": {
+    "name": "degree",
+    "latex": "^{\\circ}",
+    "aliases": [
+      "degrees",
+      "degree"
+    ],
+    "tts": {
+      "casual": "degrees",
+      "normal": "degrees",
+      "pedagogical": "degrees"
+    },
+    "domain": "geometry"
+  },
+  "≅": {
+    "name": "congruent",
+    "latex": "\\cong",
+    "aliases": [
+      "is congruent to",
+      "congruent to",
+      "congruent"
+    ],
+    "tts": {
+      "casual": "congruent to",
+      "normal": "is congruent to",
+      "pedagogical": "is congruent to"
+    },
+    "domain": "geometry"
+  },
+  "∼": {
+    "name": "similar",
+    "latex": "\\sim",
+    "aliases": [
+      "is similar to",
+      "similar to",
+      "similar",
+      "tilde"
+    ],
+    "tts": {
+      "casual": "similar to",
+      "normal": "is similar to",
+      "pedagogical": "is similar to"
+    },
+    "domain": "geometry"
+  },
+  "±": {
+    "name": "plus_minus",
+    "latex": "\\pm",
+    "aliases": [
+      "plus or minus",
+      "plus minus"
+    ],
+    "tts": {
+      "casual": "plus or minus",
+      "normal": "plus or minus",
+      "pedagogical": "plus or minus"
+    },
+    "domain": "arithmetic"
+  },
+  "∝": {
+    "name": "proportional",
+    "latex": "\\propto",
+    "aliases": [
+      "proportional to",
+      "is proportional to",
+      "varies as"
+    ],
+    "tts": {
+      "casual": "proportional to",
+      "normal": "is proportional to",
+      "pedagogical": "is proportional to"
+    },
+    "domain": "algebra"
+  },
+  "!": {
+    "name": "factorial",
+    "latex": "!",
+    "aliases": [
+      "factorial"
+    ],
+    "tts": {
+      "casual": "factorial",
+      "normal": "factorial",
+      "pedagogical": "factorial"
+    },
+    "domain": "arithmetic"
+  },
+  "%": {
+    "name": "percent",
+    "latex": "\\%",
+    "aliases": [
+      "percent",
+      "per cent"
+    ],
+    "tts": {
+      "casual": "percent",
+      "normal": "percent",
+      "pedagogical": "percent"
+    },
+    "domain": "arithmetic"
+  },
+  "∜": {
+    "name": "fourth_root",
+    "latex": "\\sqrt[4]",
+    "aliases": [
+      "fourth root of",
+      "the fourth root of"
+    ],
+    "tts": {
+      "casual": "fourth root of",
+      "normal": "fourth root of",
+      "pedagogical": "the fourth root of"
+    },
+    "domain": "arithmetic"
+  },
+  "≡": {
+    "name": "equivalent",
+    "latex": "\\equiv",
+    "aliases": [
+      "is equivalent to",
+      "equivalent to",
+      "identical to",
+      "is congruent to modulo"
+    ],
+    "tts": {
+      "casual": "equivalent to",
+      "normal": "is equivalent to",
+      "pedagogical": "is equivalent to"
+    },
+    "domain": "arithmetic"
+  },
+  "∣": {
+    "name": "divides",
+    "latex": "\\mid",
+    "aliases": [
+      "divides",
+      "is divisible by",
+      "such that"
+    ],
+    "tts": {
+      "casual": "divides",
+      "normal": "divides",
+      "pedagogical": "divides"
+    },
+    "domain": "arithmetic"
+  },
+  "ℕ": {
+    "name": "natural_numbers",
+    "latex": "\\mathbb{N}",
+    "aliases": [
+      "natural numbers",
+      "the natural numbers"
+    ],
+    "tts": {
+      "casual": "the naturals",
+      "normal": "the natural numbers",
+      "pedagogical": "the set of natural numbers"
+    },
+    "domain": "set_theory"
+  },
+  "ℤ": {
+    "name": "integers",
+    "latex": "\\mathbb{Z}",
+    "aliases": [
+      "integers",
+      "the integers"
+    ],
+    "tts": {
+      "casual": "the integers",
+      "normal": "the integers",
+      "pedagogical": "the set of all integers"
+    },
+    "domain": "set_theory"
+  },
+  "ℚ": {
+    "name": "rationals",
+    "latex": "\\mathbb{Q}",
+    "aliases": [
+      "rational numbers",
+      "the rationals",
+      "the rational numbers"
+    ],
+    "tts": {
+      "casual": "the rationals",
+      "normal": "the rational numbers",
+      "pedagogical": "the set of rational numbers"
+    },
+    "domain": "set_theory"
+  },
+  "ℝ": {
+    "name": "real_numbers",
+    "latex": "\\mathbb{R}",
+    "aliases": [
+      "real numbers",
+      "the reals",
+      "the real numbers"
+    ],
+    "tts": {
+      "casual": "the reals",
+      "normal": "the real numbers",
+      "pedagogical": "the set of real numbers"
+    },
+    "domain": "set_theory"
+  },
+  "ℂ": {
+    "name": "complex_numbers",
+    "latex": "\\mathbb{C}",
+    "aliases": [
+      "complex numbers",
+      "the complex numbers"
+    ],
+    "tts": {
+      "casual": "the complex numbers",
+      "normal": "the complex numbers",
+      "pedagogical": "the set of complex numbers"
+    },
+    "domain": "set_theory"
+  },
+  "·": {
+    "name": "dot_product",
+    "latex": "\\cdot",
+    "aliases": [
+      "dot",
+      "dot product",
+      "scalar product"
+    ],
+    "tts": {
+      "casual": "dot",
+      "normal": "dot product",
+      "pedagogical": "dot product"
+    },
+    "domain": "linear_algebra",
+    "contexts": {
+      "arithmetic": {
+        "aliases": [
+          "times",
+          "multiplied by"
+        ],
+        "tts": {
+          "casual": "times",
+          "normal": "times",
+          "pedagogical": "times"
+        }
+      },
+      "linear_algebra": {
+        "aliases": [
+          "dot",
+          "dot product",
+          "scalar product"
+        ],
+        "tts": {
+          "casual": "dot",
+          "normal": "dot product",
+          "pedagogical": "the dot product of"
+        }
+      }
+    }
+  },
+  "⊗": {
+    "name": "tensor_product",
+    "latex": "\\otimes",
+    "aliases": [
+      "tensor product",
+      "tensor product of",
+      "outer product"
+    ],
+    "tts": {
+      "casual": "tensor",
+      "normal": "tensor product",
+      "pedagogical": "tensor product of"
+    },
+    "domain": "linear_algebra"
+  },
+  "‖": {
+    "name": "norm",
+    "latex": "\\|",
+    "aliases": [
+      "norm of",
+      "the norm of",
+      "magnitude of",
+      "length of"
+    ],
+    "tts": {
+      "casual": "norm of",
+      "normal": "the norm of",
+      "pedagogical": "the norm of"
+    },
+    "domain": "linear_algebra"
+  },
+  "∬": {
+    "name": "double_integral",
+    "latex": "\\iint",
+    "aliases": [
+      "double integral",
+      "the double integral"
+    ],
+    "tts": {
+      "casual": "double integral",
+      "normal": "the double integral",
+      "pedagogical": "the double integral"
+    },
+    "domain": "calculus"
+  },
+  "∭": {
+    "name": "triple_integral",
+    "latex": "\\iiint",
+    "aliases": [
+      "triple integral",
+      "the triple integral"
+    ],
+    "tts": {
+      "casual": "triple integral",
+      "normal": "the triple integral",
+      "pedagogical": "the triple integral"
+    },
+    "domain": "calculus"
+  },
+  "∮": {
+    "name": "contour_integral",
+    "latex": "\\oint",
+    "aliases": [
+      "contour integral",
+      "line integral",
+      "closed integral"
+    ],
+    "tts": {
+      "casual": "contour integral",
+      "normal": "the contour integral",
+      "pedagogical": "the contour integral"
+    },
+    "domain": "calculus"
+  },
+  "Σ": {
+    "name": "sigma_upper",
+    "latex": "\\Sigma",
+    "aliases": [
+      "capital sigma",
+      "uppercase sigma"
+    ],
+    "tts": {
+      "casual": "sigma",
+      "normal": "capital sigma",
+      "pedagogical": "capital sigma"
+    },
+    "domain": "general"
+  },
+  "Δ": {
+    "name": "delta_upper",
+    "latex": "\\Delta",
+    "aliases": [
+      "capital delta",
+      "uppercase delta",
+      "delta",
+      "change in"
+    ],
+    "tts": {
+      "casual": "delta",
+      "normal": "capital delta",
+      "pedagogical": "delta, meaning change in"
+    },
+    "domain": "general"
+  },
+  "Π": {
+    "name": "pi_upper",
+    "latex": "\\Pi",
+    "aliases": [
+      "capital pi",
+      "uppercase pi"
+    ],
+    "tts": {
+      "casual": "pi",
+      "normal": "capital pi",
+      "pedagogical": "capital pi"
+    },
+    "domain": "general"
+  },
+  "Ω": {
+    "name": "omega_upper",
+    "latex": "\\Omega",
+    "aliases": [
+      "capital omega",
+      "uppercase omega",
+      "omega"
+    ],
+    "tts": {
+      "casual": "omega",
+      "normal": "capital omega",
+      "pedagogical": "capital omega"
+    },
+    "domain": "general"
+  },
+  "Γ": {
+    "name": "gamma_upper",
+    "latex": "\\Gamma",
+    "aliases": [
+      "capital gamma",
+      "uppercase gamma",
+      "gamma function"
+    ],
+    "tts": {
+      "casual": "gamma",
+      "normal": "capital gamma",
+      "pedagogical": "capital gamma"
+    },
+    "domain": "general"
+  },
+  "Λ": {
+    "name": "lambda_upper",
+    "latex": "\\Lambda",
+    "aliases": [
+      "capital lambda",
+      "uppercase lambda"
+    ],
+    "tts": {
+      "casual": "lambda",
+      "normal": "capital lambda",
+      "pedagogical": "capital lambda"
+    },
+    "domain": "general"
+  },
+  "ε": {
+    "name": "epsilon",
+    "latex": "\\epsilon",
+    "aliases": [
+      "epsilon",
+      "ep-si-lon"
+    ],
+    "tts": {
+      "casual": "epsilon",
+      "normal": "epsilon",
+      "pedagogical": "epsilon"
+    },
+    "domain": "general"
+  },
+  "ζ": {
+    "name": "zeta",
+    "latex": "\\zeta",
+    "aliases": [
+      "zeta",
+      "zay-tuh"
+    ],
+    "tts": {
+      "casual": "zeta",
+      "normal": "zeta",
+      "pedagogical": "zeta"
+    },
+    "domain": "general"
+  },
+  "η": {
+    "name": "eta",
+    "latex": "\\eta",
+    "aliases": [
+      "eta",
+      "ay-tuh"
+    ],
+    "tts": {
+      "casual": "eta",
+      "normal": "eta",
+      "pedagogical": "eta"
+    },
+    "domain": "general"
+  },
+  "ι": {
+    "name": "iota",
+    "latex": "\\iota",
+    "aliases": [
+      "iota",
+      "eye-oh-tuh"
+    ],
+    "tts": {
+      "casual": "iota",
+      "normal": "iota",
+      "pedagogical": "iota"
+    },
+    "domain": "general"
+  },
+  "κ": {
+    "name": "kappa",
+    "latex": "\\kappa",
+    "aliases": [
+      "kappa",
+      "kap-uh"
+    ],
+    "tts": {
+      "casual": "kappa",
+      "normal": "kappa",
+      "pedagogical": "kappa"
+    },
+    "domain": "general"
+  },
+  "ν": {
+    "name": "nu",
+    "latex": "\\nu",
+    "aliases": [
+      "nu",
+      "new"
+    ],
+    "tts": {
+      "casual": "nu",
+      "normal": "nu",
+      "pedagogical": "nu"
+    },
+    "domain": "general"
+  },
+  "ξ": {
+    "name": "xi",
+    "latex": "\\xi",
+    "aliases": [
+      "xi",
+      "ksee",
+      "zai"
+    ],
+    "tts": {
+      "casual": "xi",
+      "normal": "xi",
+      "pedagogical": "xi"
+    },
+    "domain": "general"
+  },
+  "ρ": {
+    "name": "rho",
+    "latex": "\\rho",
+    "aliases": [
+      "rho",
+      "roe"
+    ],
+    "tts": {
+      "casual": "rho",
+      "normal": "rho",
+      "pedagogical": "rho"
+    },
+    "domain": "general"
+  },
+  "τ": {
+    "name": "tau",
+    "latex": "\\tau",
+    "aliases": [
+      "tau",
+      "taw"
+    ],
+    "tts": {
+      "casual": "tau",
+      "normal": "tau",
+      "pedagogical": "tau"
+    },
+    "domain": "general"
+  },
+  "υ": {
+    "name": "upsilon",
+    "latex": "\\upsilon",
+    "aliases": [
+      "upsilon",
+      "up-si-lon"
+    ],
+    "tts": {
+      "casual": "upsilon",
+      "normal": "upsilon",
+      "pedagogical": "upsilon"
+    },
+    "domain": "general"
+  },
+  "χ": {
+    "name": "chi",
+    "latex": "\\chi",
+    "aliases": [
+      "chi",
+      "kai"
+    ],
+    "tts": {
+      "casual": "chi",
+      "normal": "chi",
+      "pedagogical": "chi"
+    },
+    "domain": "general"
+  },
+  "ψ": {
+    "name": "psi",
+    "latex": "\\psi",
+    "aliases": [
+      "psi",
+      "sigh",
+      "psee"
+    ],
+    "tts": {
+      "casual": "psi",
+      "normal": "psi",
+      "pedagogical": "psi"
+    },
+    "domain": "general"
+  }
+}

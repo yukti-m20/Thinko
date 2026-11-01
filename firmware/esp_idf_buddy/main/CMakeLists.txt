@@ -1,0 +1,25 @@
+# Main component CMakeLists.txt
+idf_component_register(
+    SRCS
+        "main.c"
+        "audio_i2s.c"
+        "oled_ssd1306.c"
+        "button_driver.c"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        esp_websocket_client
+        esp_wifi
+        esp_event
+        esp_netif
+        nvs_flash
+        driver
+        esp_driver_i2s
+        esp_driver_i2c
+        esp_driver_gpio
+        freertos
+        esp_ringbuf
+        cjson
+        esp_timer
+        log
+)

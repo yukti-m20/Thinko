@@ -1,0 +1,60 @@
+version: '3.9'
+
+services:
+  thinko:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: thinko-voice-agent
+    stdin_open: true
+    tty: true
+    environment:
+      # Load from .env file in project root
+      - DEEPGRAM_API_KEY=${DEEPGRAM_API_KEY}
+      - DEEPGRAM_VOICE=${DEEPGRAM_VOICE:-aura-2-thalia-en}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - CODEX_MODEL=${CODEX_MODEL:-gpt-4o}
+      # Optional: Supabase for session persistence
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_SERVICE_ROLE_KEY=${SUPABASE_SERVICE_ROLE_KEY}
+      - CHILD_ID=${CHILD_ID}
+      # Python settings
+      - PYTHONUNBUFFERED=1
+    volumes:
+      # Mount audio device for microphone access (Linux/Mac)
+      - /dev/snd:/dev/snd
+      - /dev/dsp:/dev/dsp
+      # Mount /dev/shm for temporary audio files
+      - /dev/shm:/dev/shm
+      # Mount sounds directory for ding.mp3 playback
+      - ./sounds:/app/sounds:ro
+      # Optional: mount .env for live reloading
+      - ./.env:/app/.env:ro
+    # For macOS audio passthrough (if using Docker Desktop or similar)
+    # Uncomment if running on macOS:
+    # device_mappings:
+    #   - /dev/null
+    privileged: false
+    restart: no
+    # Prevent container from exiting immediately
+    # (keeps it running so you can interact via stdin)
+
+  # Optional: Parent dashboard (Next.js + Supabase)
+  # Uncomment and configure if using the dashboard
+  # dashboard:
+  #   build:
+  #     context: ./dashboard
+  #     dockerfile: Dockerfile
+  #   container_name: thinko-dashboard
+  #   ports:
+  #     - "3000:3000"
+  #   environment:
+  #     - NEXT_PUBLIC_SUPABASE_URL=${NEXT_PUBLIC_SUPABASE_URL}
+  #     - NEXT_PUBLIC_SUPABASE_ANON_KEY=${NEXT_PUBLIC_SUPABASE_ANON_KEY}
+  #     - SUPABASE_SERVICE_ROLE_KEY=${SUPABASE_SERVICE_ROLE_KEY}
+  #   depends_on:
+  #     - thinko
+
+volumes:
+  sounds:
+    driver: local

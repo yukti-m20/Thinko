@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/pranjal/pico_ws/install/whycode_interfaces/include/**",
+        "/home/pranjal/pico_ws/install/waypoint_navigation/include/**",
+        "/home/pranjal/pico_ws/install/swift_msgs/include/**",
+        "/home/pranjal/pico_ws/install/rotors_control/include/**",
+        "/home/pranjal/pico_ws/install/mav_system_msgs/include/**",
+        "/home/pranjal/pico_ws/install/mav_state_machine_msgs/include/**",
+        "/home/pranjal/pico_ws/install/mav_planning_msgs/include/**",
+        "/home/pranjal/pico_ws/install/mav_msgs/include/**",
+        "/home/pranjal/pico_ws/install/error_msg/include/**",
+        "/home/pranjal/pico_ws/install/controller_msg/include/**",
+        "/home/pranjal/eYRC_26-27_Hola-The-Explorer/Software/workspace/install/shape_interface/include/**",
+        "/opt/ros/humble/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ros2",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}

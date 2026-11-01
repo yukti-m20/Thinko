@@ -1,0 +1,28 @@
+.env
+.env.local
+dashboard/.env.local
+__pycache__/
+*.py[cod]
+.venv/
+realtimesst.log
+*.log
+
+# Nested clones + Next build output
+lilvro/
+lilvro-1/
+dashboard/.next-dev/
+dashboard/.next/
+dashboard/node_modules/
+
+# Supabase CLI local state
+supabase/.temp/
+supabase/.branches/
+
+# Local supabase CLI home (used when HOME is overridden)
+.supabase_home/
+
+# ESP-IDF & Hardware Build Artifacts
+**/build/
+**/managed_components/
+**/sdkconfig
+**/sdkconfig.old

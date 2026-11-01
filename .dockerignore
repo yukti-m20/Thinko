@@ -1,0 +1,52 @@
+# Version control
+.git
+.gitignore
+.github
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.egg-info
+*.egg
+dist
+build
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Testing
+.pytest_cache
+.pytest_*.db
+*.cover
+.coverage
+htmlcov/
+
+# IDEs
+.vscode
+.idea
+.DS_Store
+*.swp
+*.swo
+*~
+.env
+
+# Documentation
+README.md
+*.md
+.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Temporary files
+*.tmp
+*.log

@@ -1,0 +1,203 @@
+{
+  "_meta": {
+    "description": "Chemistry symbol lexicon for Thinko chem_normalizer.py",
+    "version": "1.0",
+    "sections": ["elements", "compounds", "reaction_symbols", "states", "ions", "acids", "bases", "subscripts", "superscripts"]
+  },
+
+  "elements": {
+    "H":  { "name": "hydrogen",     "atomic_number": 1,  "tts": { "casual": "H",          "normal": "hydrogen",     "formula": "H" } },
+    "He": { "name": "helium",       "atomic_number": 2,  "tts": { "casual": "helium",      "normal": "helium",       "formula": "He" } },
+    "Li": { "name": "lithium",      "atomic_number": 3,  "tts": { "casual": "lithium",     "normal": "lithium",      "formula": "Li" } },
+    "Be": { "name": "beryllium",    "atomic_number": 4,  "tts": { "casual": "beryllium",   "normal": "beryllium",    "formula": "Be" } },
+    "B":  { "name": "boron",        "atomic_number": 5,  "tts": { "casual": "boron",       "normal": "boron",        "formula": "B" } },
+    "C":  { "name": "carbon",       "atomic_number": 6,  "tts": { "casual": "C",           "normal": "carbon",       "formula": "C" } },
+    "N":  { "name": "nitrogen",     "atomic_number": 7,  "tts": { "casual": "N",           "normal": "nitrogen",     "formula": "N" } },
+    "O":  { "name": "oxygen",       "atomic_number": 8,  "tts": { "casual": "O",           "normal": "oxygen",       "formula": "O" } },
+    "F":  { "name": "fluorine",     "atomic_number": 9,  "tts": { "casual": "fluorine",    "normal": "fluorine",     "formula": "F" } },
+    "Ne": { "name": "neon",         "atomic_number": 10, "tts": { "casual": "neon",        "normal": "neon",         "formula": "Ne" } },
+    "Na": { "name": "sodium",       "atomic_number": 11, "tts": { "casual": "sodium",      "normal": "sodium",       "formula": "Na" } },
+    "Mg": { "name": "magnesium",    "atomic_number": 12, "tts": { "casual": "magnesium",   "normal": "magnesium",    "formula": "Mg" } },
+    "Al": { "name": "aluminium",    "atomic_number": 13, "tts": { "casual": "aluminium",   "normal": "aluminium",    "formula": "Al" } },
+    "Si": { "name": "silicon",      "atomic_number": 14, "tts": { "casual": "silicon",     "normal": "silicon",      "formula": "Si" } },
+    "P":  { "name": "phosphorus",   "atomic_number": 15, "tts": { "casual": "phosphorus",  "normal": "phosphorus",   "formula": "P" } },
+    "S":  { "name": "sulfur",       "atomic_number": 16, "tts": { "casual": "S",           "normal": "sulfur",       "formula": "S" } },
+    "Cl": { "name": "chlorine",     "atomic_number": 17, "tts": { "casual": "chlorine",    "normal": "chlorine",     "formula": "Cl" } },
+    "Ar": { "name": "argon",        "atomic_number": 18, "tts": { "casual": "argon",       "normal": "argon",        "formula": "Ar" } },
+    "K":  { "name": "potassium",    "atomic_number": 19, "tts": { "casual": "potassium",   "normal": "potassium",    "formula": "K" } },
+    "Ca": { "name": "calcium",      "atomic_number": 20, "tts": { "casual": "calcium",     "normal": "calcium",      "formula": "Ca" } },
+    "Fe": { "name": "iron",         "atomic_number": 26, "tts": { "casual": "iron",        "normal": "iron",         "formula": "Fe" } },
+    "Cu": { "name": "copper",       "atomic_number": 29, "tts": { "casual": "copper",      "normal": "copper",       "formula": "Cu" } },
+    "Zn": { "name": "zinc",         "atomic_number": 30, "tts": { "casual": "zinc",        "normal": "zinc",         "formula": "Zn" } },
+    "Br": { "name": "bromine",      "atomic_number": 35, "tts": { "casual": "bromine",     "normal": "bromine",      "formula": "Br" } },
+    "Kr": { "name": "krypton",      "atomic_number": 36, "tts": { "casual": "krypton",     "normal": "krypton",      "formula": "Kr" } },
+    "Ag": { "name": "silver",       "atomic_number": 47, "tts": { "casual": "silver",      "normal": "silver",       "formula": "Ag" } },
+    "I":  { "name": "iodine",       "atomic_number": 53, "tts": { "casual": "iodine",      "normal": "iodine",       "formula": "I" } },
+    "Ba": { "name": "barium",       "atomic_number": 56, "tts": { "casual": "barium",      "normal": "barium",       "formula": "Ba" } },
+    "Au": { "name": "gold",         "atomic_number": 79, "tts": { "casual": "gold",        "normal": "gold",         "formula": "Au" } },
+    "Hg": { "name": "mercury",      "atomic_number": 80, "tts": { "casual": "mercury",     "normal": "mercury",      "formula": "Hg" } },
+    "Pb": { "name": "lead",         "atomic_number": 82, "tts": { "casual": "lead",        "normal": "lead",         "formula": "Pb" } },
+    "U":  { "name": "uranium",      "atomic_number": 92, "tts": { "casual": "uranium",     "normal": "uranium",      "formula": "U" } }
+  },
+
+  "compounds": {
+    "H₂O":   { "name": "water",               "aliases": ["water", "dihydrogen monoxide"], "tts": { "casual": "water",                      "normal": "H 2 O",                  "formula": "H 2 O" } },
+    "CO₂":   { "name": "carbon dioxide",       "aliases": ["carbon dioxide"],               "tts": { "casual": "carbon dioxide",              "normal": "carbon dioxide",          "formula": "C O 2" } },
+    "CO":    { "name": "carbon monoxide",      "aliases": ["carbon monoxide"],              "tts": { "casual": "C O",                         "normal": "carbon monoxide",         "formula": "C O" } },
+    "O₂":    { "name": "oxygen gas",           "aliases": ["oxygen gas", "dioxygen"],       "tts": { "casual": "O 2",                         "normal": "oxygen gas",              "formula": "O 2" } },
+    "N₂":    { "name": "nitrogen gas",         "aliases": ["nitrogen gas", "dinitrogen"],   "tts": { "casual": "N 2",                         "normal": "nitrogen gas",            "formula": "N 2" } },
+    "H₂":    { "name": "hydrogen gas",         "aliases": ["hydrogen gas"],                 "tts": { "casual": "H 2",                         "normal": "hydrogen gas",            "formula": "H 2" } },
+    "Cl₂":   { "name": "chlorine gas",         "aliases": ["chlorine gas"],                 "tts": { "casual": "Cl 2",                        "normal": "chlorine gas",            "formula": "Cl 2" } },
+    "NH₃":   { "name": "ammonia",              "aliases": ["ammonia"],                      "tts": { "casual": "ammonia",                     "normal": "N H 3",                   "formula": "N H 3" } },
+    "CH₄":   { "name": "methane",              "aliases": ["methane", "natural gas"],       "tts": { "casual": "methane",                     "normal": "C H 4",                   "formula": "C H 4" } },
+    "C₂H₅OH":{ "name": "ethanol",             "aliases": ["ethanol", "alcohol"],           "tts": { "casual": "ethanol",                     "normal": "C 2 H 5 O H",             "formula": "C 2 H 5 O H" } },
+    "C₆H₁₂O₆":{ "name": "glucose",            "aliases": ["glucose", "blood sugar"],       "tts": { "casual": "glucose",                     "normal": "C 6 H 12 O 6",            "formula": "C 6 H 12 O 6" } },
+    "NaCl":  { "name": "sodium chloride",      "aliases": ["salt", "table salt", "sodium chloride"], "tts": { "casual": "sodium chloride",    "normal": "sodium chloride",         "formula": "Na Cl" } },
+    "NaOH":  { "name": "sodium hydroxide",     "aliases": ["sodium hydroxide", "lye"],      "tts": { "casual": "sodium hydroxide",            "normal": "Na O H",                  "formula": "Na O H" } },
+    "KOH":   { "name": "potassium hydroxide",  "aliases": ["potassium hydroxide"],          "tts": { "casual": "potassium hydroxide",         "normal": "K O H",                   "formula": "K O H" } },
+    "CaCO₃": { "name": "calcium carbonate",    "aliases": ["calcium carbonate", "limestone","chalk"], "tts": { "casual": "calcium carbonate", "normal": "calcium carbonate",       "formula": "Ca C O 3" } },
+    "CaO":   { "name": "calcium oxide",        "aliases": ["calcium oxide", "quicklime"],   "tts": { "casual": "calcium oxide",               "normal": "Ca O",                    "formula": "Ca O" } },
+    "Ca(OH)₂":{ "name": "calcium hydroxide",   "aliases": ["calcium hydroxide", "slaked lime"], "tts": { "casual": "calcium hydroxide",       "normal": "Ca O H 2",                "formula": "Ca O H 2" } },
+    "H₂SO₄": { "name": "sulfuric acid",        "aliases": ["sulfuric acid", "sulphuric acid"], "tts": { "casual": "sulfuric acid",            "normal": "H 2 S O 4",               "formula": "H 2 S O 4" } },
+    "HCl":   { "name": "hydrochloric acid",    "aliases": ["hydrochloric acid"],            "tts": { "casual": "H Cl",                        "normal": "hydrochloric acid",        "formula": "H Cl" } },
+    "HNO₃":  { "name": "nitric acid",          "aliases": ["nitric acid"],                  "tts": { "casual": "nitric acid",                 "normal": "H N O 3",                 "formula": "H N O 3" } },
+    "H₃PO₄": { "name": "phosphoric acid",      "aliases": ["phosphoric acid"],              "tts": { "casual": "phosphoric acid",             "normal": "H 3 P O 4",               "formula": "H 3 P O 4" } },
+    "SO₂":   { "name": "sulfur dioxide",       "aliases": ["sulfur dioxide"],               "tts": { "casual": "S O 2",                       "normal": "sulfur dioxide",           "formula": "S O 2" } },
+    "SO₃":   { "name": "sulfur trioxide",      "aliases": ["sulfur trioxide"],              "tts": { "casual": "S O 3",                       "normal": "sulfur trioxide",          "formula": "S O 3" } },
+    "NO":    { "name": "nitric oxide",         "aliases": ["nitric oxide"],                 "tts": { "casual": "N O",                         "normal": "nitric oxide",            "formula": "N O" } },
+    "NO₂":   { "name": "nitrogen dioxide",     "aliases": ["nitrogen dioxide"],             "tts": { "casual": "N O 2",                       "normal": "nitrogen dioxide",         "formula": "N O 2" } },
+    "Fe₂O₃": { "name": "iron oxide",           "aliases": ["iron oxide", "rust"],           "tts": { "casual": "iron oxide",                  "normal": "iron oxide",              "formula": "Fe 2 O 3" } },
+    "MgO":   { "name": "magnesium oxide",      "aliases": ["magnesium oxide"],              "tts": { "casual": "Mg O",                        "normal": "magnesium oxide",         "formula": "Mg O" } },
+    "ZnO":   { "name": "zinc oxide",           "aliases": ["zinc oxide"],                   "tts": { "casual": "zinc oxide",                  "normal": "Zn O",                    "formula": "Zn O" } }
+  },
+
+  "reaction_symbols": {
+    "→": {
+      "name": "yields",
+      "aliases": ["yields", "produces", "gives", "reacts to form", "arrow"],
+      "tts": { "casual": "gives", "normal": "yields", "pedagogical": "reacts to produce" },
+      "domain": "chemistry"
+    },
+    "⇌": {
+      "name": "equilibrium",
+      "aliases": ["in equilibrium with", "equilibrium", "reversible", "in equilibrium"],
+      "tts": { "casual": "is in equilibrium with", "normal": "is in equilibrium with", "pedagogical": "reversibly reacts to form" },
+      "domain": "chemistry"
+    },
+    "⇒": {
+      "name": "net_reaction",
+      "aliases": ["net reaction", "overall gives"],
+      "tts": { "casual": "overall gives", "normal": "net reaction gives", "pedagogical": "the overall net reaction produces" },
+      "domain": "chemistry"
+    },
+    "+": {
+      "name": "plus_reagent",
+      "aliases": ["plus", "reacts with", "and"],
+      "tts": { "casual": "plus", "normal": "plus", "pedagogical": "reacts with" },
+      "domain": "chemistry"
+    },
+    "↑": {
+      "name": "gas_evolved",
+      "aliases": ["evolved", "gas evolved"],
+      "tts": { "casual": "gas", "normal": "gas evolved", "pedagogical": "which escapes as a gas" },
+      "domain": "chemistry"
+    },
+    "↓": {
+      "name": "precipitate",
+      "aliases": ["precipitate", "solid formed", "ppt"],
+      "tts": { "casual": "precipitate", "normal": "precipitate formed", "pedagogical": "which forms as a solid precipitate" },
+      "domain": "chemistry"
+    },
+    "Δ": {
+      "name": "heat",
+      "aliases": ["heat", "heated", "on heating", "with heat"],
+      "tts": { "casual": "with heat", "normal": "on heating", "pedagogical": "when heated" },
+      "domain": "chemistry"
+    },
+    "hν": {
+      "name": "light",
+      "aliases": ["light", "photon", "uv light", "under light"],
+      "tts": { "casual": "under light", "normal": "in the presence of light", "pedagogical": "when exposed to light of frequency nu" },
+      "domain": "chemistry"
+    }
+  },
+
+  "states": {
+    "(s)":  { "name": "solid",    "aliases": ["solid"],    "tts": { "casual": "solid",    "normal": "solid",    "pedagogical": "in the solid state" } },
+    "(l)":  { "name": "liquid",   "aliases": ["liquid"],   "tts": { "casual": "liquid",   "normal": "liquid",   "pedagogical": "in the liquid state" } },
+    "(g)":  { "name": "gas",      "aliases": ["gas"],      "tts": { "casual": "gas",      "normal": "gas",      "pedagogical": "in the gaseous state" } },
+    "(aq)": { "name": "aqueous",  "aliases": ["aqueous", "dissolved", "in water"], "tts": { "casual": "dissolved", "normal": "aqueous", "pedagogical": "dissolved in water" } }
+  },
+
+  "ions": {
+    "H⁺":   { "name": "hydrogen ion",      "aliases": ["hydrogen ion", "proton", "H plus"],       "tts": { "casual": "H plus",          "normal": "hydrogen ion",          "formula": "H plus" } },
+    "OH⁻":  { "name": "hydroxide ion",     "aliases": ["hydroxide", "OH minus"],                   "tts": { "casual": "O H minus",       "normal": "hydroxide ion",         "formula": "O H minus" } },
+    "Na⁺":  { "name": "sodium ion",        "aliases": ["sodium ion", "Na plus"],                   "tts": { "casual": "sodium ion",      "normal": "sodium ion",            "formula": "Na plus" } },
+    "K⁺":   { "name": "potassium ion",     "aliases": ["potassium ion", "K plus"],                 "tts": { "casual": "potassium ion",   "normal": "potassium ion",         "formula": "K plus" } },
+    "Ca²⁺": { "name": "calcium ion",       "aliases": ["calcium ion", "Ca 2 plus"],                "tts": { "casual": "calcium ion",     "normal": "calcium 2 plus ion",    "formula": "Ca 2 plus" } },
+    "Mg²⁺": { "name": "magnesium ion",     "aliases": ["magnesium ion", "Mg 2 plus"],              "tts": { "casual": "magnesium ion",   "normal": "magnesium 2 plus ion",  "formula": "Mg 2 plus" } },
+    "Fe²⁺": { "name": "iron 2 ion",        "aliases": ["iron 2 ion", "ferrous ion"],               "tts": { "casual": "iron 2 ion",      "normal": "iron 2 plus ion",       "formula": "Fe 2 plus" } },
+    "Fe³⁺": { "name": "iron 3 ion",        "aliases": ["iron 3 ion", "ferric ion"],                "tts": { "casual": "iron 3 ion",      "normal": "iron 3 plus ion",       "formula": "Fe 3 plus" } },
+    "Cu²⁺": { "name": "copper ion",        "aliases": ["copper ion", "Cu 2 plus"],                 "tts": { "casual": "copper ion",      "normal": "copper 2 plus ion",     "formula": "Cu 2 plus" } },
+    "Zn²⁺": { "name": "zinc ion",          "aliases": ["zinc ion", "Zn 2 plus"],                   "tts": { "casual": "zinc ion",        "normal": "zinc 2 plus ion",       "formula": "Zn 2 plus" } },
+    "Cl⁻":  { "name": "chloride ion",      "aliases": ["chloride", "Cl minus"],                    "tts": { "casual": "chloride",        "normal": "chloride ion",          "formula": "Cl minus" } },
+    "Br⁻":  { "name": "bromide ion",       "aliases": ["bromide", "Br minus"],                     "tts": { "casual": "bromide",         "normal": "bromide ion",           "formula": "Br minus" } },
+    "I⁻":   { "name": "iodide ion",        "aliases": ["iodide", "I minus"],                       "tts": { "casual": "iodide",          "normal": "iodide ion",            "formula": "I minus" } },
+    "F⁻":   { "name": "fluoride ion",      "aliases": ["fluoride", "F minus"],                     "tts": { "casual": "fluoride",        "normal": "fluoride ion",          "formula": "F minus" } },
+    "O²⁻":  { "name": "oxide ion",         "aliases": ["oxide ion", "O 2 minus"],                  "tts": { "casual": "oxide ion",       "normal": "oxide 2 minus ion",     "formula": "O 2 minus" } },
+    "S²⁻":  { "name": "sulfide ion",       "aliases": ["sulfide", "S 2 minus"],                    "tts": { "casual": "sulfide ion",     "normal": "sulfide 2 minus ion",   "formula": "S 2 minus" } },
+    "NO₃⁻": { "name": "nitrate ion",       "aliases": ["nitrate", "NO3 minus"],                    "tts": { "casual": "nitrate",         "normal": "nitrate ion",           "formula": "N O 3 minus" } },
+    "SO₄²⁻":{ "name": "sulfate ion",       "aliases": ["sulfate", "SO4 2 minus"],                  "tts": { "casual": "sulfate",         "normal": "sulfate 2 minus ion",   "formula": "S O 4 2 minus" } },
+    "CO₃²⁻":{ "name": "carbonate ion",     "aliases": ["carbonate", "CO3 2 minus"],                "tts": { "casual": "carbonate",       "normal": "carbonate 2 minus ion", "formula": "C O 3 2 minus" } },
+    "PO₄³⁻":{ "name": "phosphate ion",     "aliases": ["phosphate", "PO4 3 minus"],                "tts": { "casual": "phosphate",       "normal": "phosphate 3 minus ion", "formula": "P O 4 3 minus" } },
+    "NH₄⁺": { "name": "ammonium ion",      "aliases": ["ammonium", "NH4 plus"],                    "tts": { "casual": "ammonium",        "normal": "ammonium ion",          "formula": "N H 4 plus" } },
+    "HCO₃⁻":{ "name": "bicarbonate ion",   "aliases": ["bicarbonate", "hydrogen carbonate"],       "tts": { "casual": "bicarbonate",     "normal": "bicarbonate ion",       "formula": "H C O 3 minus" } }
+  },
+
+  "subscripts": {
+    "₀": "0", "₁": "1", "₂": "2", "₃": "3", "₄": "4",
+    "₅": "5", "₆": "6", "₇": "7", "₈": "8", "₉": "9"
+  },
+
+  "superscripts": {
+    "⁰": "0", "¹": "1", "²": "2", "³": "3", "⁴": "4",
+    "⁵": "5", "⁶": "6", "⁷": "7", "⁸": "8", "⁹": "9",
+    "⁺": "plus", "⁻": "minus"
+  },
+
+  "quantity_prefixes": {
+    "mono":  { "value": 1, "tts": "one" },
+    "di":    { "value": 2, "tts": "two" },
+    "tri":   { "value": 3, "tts": "three" },
+    "tetra": { "value": 4, "tts": "four" },
+    "penta": { "value": 5, "tts": "five" },
+    "hexa":  { "value": 6, "tts": "six" },
+    "hepta": { "value": 7, "tts": "seven" },
+    "octa":  { "value": 8, "tts": "eight" },
+    "nona":  { "value": 9, "tts": "nine" },
+    "deca":  { "value": 10, "tts": "ten" }
+  },
+
+  "energy_terms": {
+    "ΔH":  { "name": "enthalpy_change",      "aliases": ["delta H", "enthalpy change", "heat of reaction"], "tts": { "normal": "delta H",          "pedagogical": "the change in enthalpy" } },
+    "ΔG":  { "name": "gibbs_energy_change",  "aliases": ["delta G", "Gibbs energy"],                       "tts": { "normal": "delta G",          "pedagogical": "the change in Gibbs free energy" } },
+    "ΔS":  { "name": "entropy_change",       "aliases": ["delta S", "entropy change"],                     "tts": { "normal": "delta S",          "pedagogical": "the change in entropy" } },
+    "Ea":  { "name": "activation_energy",    "aliases": ["activation energy", "Ea"],                       "tts": { "normal": "activation energy", "pedagogical": "the activation energy" } },
+    "Kc":  { "name": "equilibrium_constant", "aliases": ["Kc", "equilibrium constant"],                    "tts": { "normal": "K c",              "pedagogical": "the equilibrium constant in terms of concentration" } },
+    "Kp":  { "name": "pressure_equilibrium", "aliases": ["Kp"],                                            "tts": { "normal": "K p",              "pedagogical": "the equilibrium constant in terms of partial pressure" } },
+    "Ka":  { "name": "acid_dissociation",    "aliases": ["Ka", "acid dissociation constant"],              "tts": { "normal": "K a",              "pedagogical": "the acid dissociation constant" } },
+    "Kb":  { "name": "base_dissociation",    "aliases": ["Kb", "base dissociation constant"],              "tts": { "normal": "K b",              "pedagogical": "the base dissociation constant" } },
+    "Kw":  { "name": "water_ionisation",     "aliases": ["Kw", "ionic product of water"],                  "tts": { "normal": "K w",              "pedagogical": "the ionic product of water" } },
+    "pH":  { "name": "acidity",              "aliases": ["pH", "acidity"],                                 "tts": { "normal": "p H",              "pedagogical": "the pH, which measures acidity" } },
+    "pOH": { "name": "basicity",             "aliases": ["pOH"],                                           "tts": { "normal": "p O H",            "pedagogical": "the p O H" } }
+  },
+
+  "concentration_units": {
+    "mol/L":  { "aliases": ["mol per litre", "molar", "M"],        "tts": "moles per litre" },
+    "mol/dm³":{ "aliases": ["mol per dm cubed", "molar"],          "tts": "moles per decimetre cubed" },
+    "g/mol":  { "aliases": ["grams per mole", "molar mass unit"],  "tts": "grams per mole" },
+    "atm":    { "aliases": ["atmosphere", "atmospheres"],          "tts": "atmospheres" },
+    "kPa":    { "aliases": ["kilopascal", "kilopascals"],          "tts": "kilopascals" },
+    "kJ/mol": { "aliases": ["kilojoules per mole"],                "tts": "kilojoules per mole" }
+  }
+}
