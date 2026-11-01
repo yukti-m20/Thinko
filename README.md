@@ -1,4 +1,4 @@
-﻿# Thinko (Lil-Vro) 🤖💡
+﻿# Thinko  🤖💡
 ### *The Open-Source, Screen-Free AI STEM Study Buddy & Voice Tutor*
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
@@ -11,7 +11,7 @@
 
 ## 🌟 Overview
 
-**Thinko** (featuring the **Lil-Vro** persona) is a screen-free, voice-first physical study buddy and conversational STEM tutor built for students aged **8 to 14** (Grades 5–7).
+**Thinko** (featuring the **Desk Buddy** persona) is a screen-free, voice-first physical study buddy and conversational STEM tutor built for students aged **8 to 14** (Grades 5–7).
 
 Unlike traditional chat apps that encourage passive screen addiction or simply hand out homework answers, Thinko operates as an interactive physical companion powered by an **ESP32-S3**. It guides students through math, science, and reasoning problems using **Socratic dialogue**, encouraging active discovery, resilience, and genuine conceptual mastery.
 
