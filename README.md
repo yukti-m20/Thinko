@@ -16,6 +16,7 @@
 Unlike traditional chat apps that encourage passive screen addiction or simply hand out homework answers, Thinko operates as an interactive physical companion powered by an **ESP32-S3**. It guides students through math, science, and reasoning problems using **Socratic dialogue**, encouraging active discovery, resilience, and genuine conceptual mastery.
 
 Thinko supports natural, conversational **Hinglish** (fluid blend of Hindi and English written in Latin script) as well as standard English, keeping all core STEM terms internationally standardized.
+![BreatheSafe Device](Thinko%20image.jpeg)
 
 ---
 
